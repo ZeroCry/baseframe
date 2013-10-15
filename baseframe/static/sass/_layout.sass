@@ -68,7 +68,8 @@ footer .container
     font-size: inherit
 
 #logo, #logo-presents
-  @include replace-text-with-dimensions('logo@2x.png')
+  width: 240px
+  height: 180px
   a
     display: block
     width: 100%
@@ -420,7 +421,6 @@ ul.grid
 @media only screen and (-webkit-min-device-pixel-ratio: 2)
   #logo
     background-image: image-url('logo@2x.png')
-    -webkit-background-size: image-width('logo@2x.png') image-height('logo@2x.png')
 
 @media only screen and (max-width: 767px)
   .rwd-line
