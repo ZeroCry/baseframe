@@ -1918,7 +1918,7 @@ footer {
 footer .footer-inner {
   margin-top: 10px;
   min-height: 55px;
-  background: whitesmoke url('../../_baseframe/img/shadow.png?1381750531') no-repeat top center;
+  background: whitesmoke url('../../_baseframe/img/shadow.png?1381844915') no-repeat top center;
 }
 
 footer .container {
@@ -1935,11 +1935,11 @@ footer .container p {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../../_baseframe/img/logo.png?1381766155');
+  background-image: url('../../_baseframe/img/logo@2x.png?1381844915');
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  width: 1024px;
-  height: 768px;
+  width: 240px;
+  height: 180px;
 }
 #logo a, #logo-presents a {
   display: block;
@@ -1955,11 +1955,11 @@ footer .container p {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../../_baseframe/img/hasgeek-presents.png?1381750531');
+  background-image: url('../../_baseframe/img/hasgeek-presents.png?1381845027');
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  width: 100px;
-  height: 83px;
+  width: 240px;
+  height: 180px;
 }
 
 .loading {
@@ -1969,7 +1969,7 @@ footer .container p {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background: url('../../_baseframe/img/ajax-loader.gif?1381750531') center no-repeat;
+  background: url('../../_baseframe/img/ajax-loader.gif?1381844915') center no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -2402,8 +2402,8 @@ ul.grid > li.header {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   #logo {
-    background-image: url('../../_baseframe/img/logo@2x.png?1381762960');
-    -webkit-background-size: 1024px 768px;
+    background-image: url('../../_baseframe/img/logo@2x.png?1381844915');
+    -webkit-background-size: 240px 180px;
   }
 }
 @media only screen and (max-width: 767px) {

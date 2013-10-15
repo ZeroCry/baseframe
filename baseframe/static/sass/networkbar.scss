@@ -30,7 +30,7 @@ $networkbar-font: #{$networkbar-font-size}/#{$networkbar-line-height} "Source Sa
     @include pie-clearfix;
     display: block;
     background: $color-hg-bar-background;
-    
+
     @include background-image(linear-gradient(#f9f9f9, #e8e8e8));
     //@include background-image(linear-gradient(#f5f5f5, #e0e0e0));
     font: $networkbar-font;
@@ -298,7 +298,7 @@ $networkbar-font: #{$networkbar-font-size}/#{$networkbar-line-height} "Source Sa
 
 $mob-icon-color: #999;
 
-#hg-networkbar{  
+#hg-networkbar{
     font: $networkbar-font;
     font-size: $networkbar-xs-font-size;
     background: #F3F3F3;
@@ -315,7 +315,7 @@ $mob-icon-color: #999;
     .navbar-header{
         background-image: linear-gradient(#FFFFFF,#F5F5F5);
         height: 48px;
-    }    
+    }
     .navbar-toggle{
         margin-bottom: 0;
         margin-top: 5px;
@@ -332,7 +332,7 @@ $mob-icon-color: #999;
     .navbar-brand{
         padding: 0;
         display: block;
-        @include replace-text-with-dimensions('logo.png');
+        @include replace-text-with-dimensions('logo@2x.png');
         height: 48px;
         background-position: left center;
         background-size: auto 100%;
@@ -341,7 +341,7 @@ $mob-icon-color: #999;
         margin-left: 15px;
     }
     .navbar-collapse{
-        border-top: 2px solid #E6E6E6; 
+        border-top: 2px solid #E6E6E6;
         &.collapsing{
             height: 100%;
             position: fixed;
@@ -352,7 +352,7 @@ $mob-icon-color: #999;
         }
         &.in{
             border-top: 2px solid #E6E6E6;
-            overflow-y: auto !important; 
+            overflow-y: auto !important;
             -webkit-overflow-scrolling: touch;
             position: fixed;
             top: 3.6em;
@@ -454,7 +454,7 @@ $mob-icon-color: #999;
                     color: #444444;
                     border-top: 2px solid transparent;
                     line-height: 18px;
-                }            
+                }
                 & > .dropdown-menu{
                     background: $color-hg-bar-background;
                     color: $color-hg-bar;
@@ -468,7 +468,7 @@ $mob-icon-color: #999;
                             padding: 5px 6px;
                         }
                     }
-                }               
+                }
                 &.selected{
                     & > a {
                         border-left: none;
@@ -562,7 +562,7 @@ $mob-icon-color: #999;
                             }
                         }
                     }
-                    &:hover > a {                    
+                    &:hover > a {
                         background: #e8e8e8;
                         border-top-color: #e8e8e8;
                         @include background-image(linear-gradient(#e8e8e8, #d1d1d1));
